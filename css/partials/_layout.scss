@@ -5,7 +5,7 @@
     max-width: 1440px;
     margin: 0 auto;
 
-    padding: 36px 16px;
+    padding: 100px 16px;
 
     overflow: none;
 
@@ -23,20 +23,25 @@
 }
 
 .container-item-1{
-    max-width: 580px;
-
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
+    
     @include responsive (){
         align-items: center;
+        flex-direction: column;
     }
 }
 
-.container-item-2{
-    flex-grow: 5;
+.buttom{
+    display: flex;
 }
+
+
+.mockup{
+    width: 600px;
+    height: 600px;
+}
+
 
 .flex{
     display: flex;
@@ -183,6 +188,10 @@
 
 
     }
+}
+
+.logo-pantera{
+    width: 50%;
 }
 
 .bg-loader{

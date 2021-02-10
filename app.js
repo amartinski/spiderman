@@ -13,15 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     {y:-50, opacity: 0},
     {y:0, opacity: 1, ease: Expo.easeInOut}, '-=1')
 
-    .fromTo('.container-item-2', 1,
-    {y:-50, opacity: 0},
-    {y:0, opacity: 1, ease: Expo.easeInOut})
-
-    .fromTo('.spider-text', 1,
+    .fromTo('.mockup', 1,
     {y:-50, opacity: 0},
     {y:0, opacity: 1, ease: Expo.easeInOut})
 
     .fromTo('.description', 1,
+    {y:-50, opacity: 0},
+    {y:0, opacity: 1, ease: Expo.easeInOut})
+    
+    .fromTo('.buttom', 1,
     {y:-50, opacity: 0},
     {y:0, opacity: 1, ease: Expo.easeInOut})
 

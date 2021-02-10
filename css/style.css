@@ -27,7 +27,8 @@ a {
 }
 
 p {
-  font-size: 16px;
+  text-align: center;
+  font-size: 30px;
   color: #959698;
   letter-spacing: 1px;
   line-height: 140%;
@@ -36,7 +37,7 @@ p {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 36px 16px;
+  padding: 100px 16px;
   overflow: none;
   height: 85vh;
   display: -webkit-box;
@@ -63,17 +64,12 @@ p {
 }
 
 .container-item-1 {
-  max-width: 580px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
 }
 
 @media screen and (max-width: 960px) {
@@ -81,13 +77,22 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
-.container-item-2 {
-  -webkit-box-flex: 5;
-      -ms-flex-positive: 5;
-          flex-grow: 5;
+.buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mockup {
+  width: 600px;
+  height: 600px;
 }
 
 .flex {
@@ -231,6 +236,10 @@ p {
   left: 0;
   display: block;
   background: linear-gradient(101.47deg, #0A0C10 0%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
+}
+
+.logo-pantera {
+  width: 50%;
 }
 
 .bg-loader {
