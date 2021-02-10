@@ -33,30 +33,20 @@
 }
 
 .buttom{
+    justify-content: flex-start;
+    align-items: center;   
     display: flex;
 }
 
 
 .mockup{
-    width: 600px;
-    height: 600px;
+    width: 60%;
 }
 
 
 .flex{
     display: flex;
 }
-
-.spiderman{
-    width: 150%;
-    transform: translate3d(-150px, -50px , 0);
-
-    @include responsive (){
-        width: 100%;
-        transform: translate3d(0, 0 , 0);
-    }
-}
-
 
 .btn{
     display: inline-block;    
@@ -184,7 +174,7 @@
         left: 0;
         display: block;
 
-        background: linear-gradient(101.47deg, #0A0C10 0%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
+        background: linear-gradient(0deg, #0A0C10 0%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
 
 
     }

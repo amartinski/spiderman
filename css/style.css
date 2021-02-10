@@ -85,34 +85,25 @@ p {
 }
 
 .buttom {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .mockup {
-  width: 600px;
-  height: 600px;
+  width: 60%;
 }
 
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.spiderman {
-  width: 150%;
-  -webkit-transform: translate3d(-150px, -50px, 0);
-          transform: translate3d(-150px, -50px, 0);
-}
-
-@media screen and (max-width: 960px) {
-  .spiderman {
-    width: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-  }
 }
 
 .btn {
@@ -235,7 +226,8 @@ p {
   top: 0;
   left: 0;
   display: block;
-  background: linear-gradient(101.47deg, #0A0C10 0%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#0A0C10), color-stop(50.07%, rgba(10, 12, 16, 0.8)), color-stop(73.17%, #0A0C10));
+  background: linear-gradient(0deg, #0A0C10 0%, rgba(10, 12, 16, 0.8) 50.07%, #0A0C10 73.17%);
 }
 
 .logo-pantera {
@@ -310,12 +302,12 @@ header {
 }
 
 .logo {
-  max-width: 88px;
+  max-width: 100px;
 }
 
 .nav-link {
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 200;
@@ -373,7 +365,7 @@ header {
 .nav-social svg {
   cursor: pointer;
   margin-left: 16px;
-  width: 24px;
+  width: 30px;
 }
 
 .nav-social svg path, .nav-social svg circle {

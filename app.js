@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     {width:'0%', opacity: 0},
     {width: "100%", opacity: 1, ease: Expo.easeInOut}, '-=1')
 
-    .fromTo('.navbar', 0.7,
+    .fromTo('.navbar', 1,
     {y:-50, opacity: 0},
-    {y:0, opacity: 1, ease: Expo.easeInOut}, '-=1')
+    {y:0, opacity: 1, ease: Expo.easeInOut})
 
-    .fromTo('.mockup', 1,
+    .fromTo('.mockup', 2,
     {y:-50, opacity: 0},
     {y:0, opacity: 1, ease: Expo.easeInOut})
 
